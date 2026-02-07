@@ -38,7 +38,7 @@ term in the numerator and divide it by as many as possible factors in the denomi
 Then the leftover terms of the numerator are multiplied by each other, doing modulo $M$ operation
 every time and ensuring that there is no overflow this way.
 
-The factorizing machinery is taken from problems 9 and 10, only slightly rewritten, so
+The factorizing machinery is taken from problems [9](https://github.com/yuretzius/ProjectEuler0009) and [10](https://github.com/yuretzius/ProjectEuler0010), only slightly rewritten, so
 instead of returning separately unique prime factors with corresponding multiplicities it repeats the prime factors
 the necessary number of times, e.g. for $24$ it returns $2$, $2$, $2$, $3$.
 
