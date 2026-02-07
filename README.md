@@ -28,7 +28,7 @@ modulo large prime $M$ (e.g. $1000000007$).
 
 I implemented directly the usual formula for $\binom{n}{m}$:
 
- $$\binom{n}{m} = \frac{(n - m + 1)(n - m + 2)\ldots n}{m!}$$ .
+$$\binom{n}{m} = \frac{(n - m + 1)(n - m + 2)\ldots n}{m!}$$.
 
 But instead of multiplying each term in the numerator and denominator I make use of the fact that by design
 the denominator must cancel out completely. So I factorize the denominator into primes and then run through each
