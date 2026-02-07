@@ -1,7 +1,7 @@
 # ProjectEuler0015
 My work on 
 
-problem #15 of projecteuler.net:
+[problem #15 of projecteuler.net](https://projecteuler.net/problem=15):
 
 Lattice Paths
 
