@@ -3,7 +3,7 @@ My work on
 
 [problem #15 of projecteuler.net](https://projecteuler.net/problem=15):
 
-Lattice Paths
+### Lattice Paths
 
 Starting in the top left corner of a $2 \times 2$ grid, and only being able to move to the right and down, there are exactly $6$ routes to the bottom right corner.
 
@@ -11,12 +11,10 @@ Starting in the top left corner of a $2 \times 2$ grid, and only being able to m
 
 How many such routes are there through a $20 \times 20$ grid?
 
-Completed on Wed, 24 Feb 2021, 03:43
+*Completed on Wed, 24 Feb 2021, 03:43*
 
-#######################################################################################
-Please note: Project Euler's policy allows publication of solutions for the first 100 problems,
-that's why I am sharing my work here for reference and educational purposes.
-#######################################################################################
+> [!NOTE]
+> Project Euler's policy allows publication of solutions for the first 100 problems, that's why I am sharing my work here for reference and educational purposes.
 
 OK, so you always have to go $n$ times right and $n$ times down. So total is always $n+n$, and the rights
 (and, correspondngly, downs) can be in any possible combination. Which is the very definition of $\binom{n+n}{n}$.
